@@ -15,7 +15,6 @@ const client = new MongoClient(uri, { useUnifiedTopology: true });
 
 let users;
 
-// CAUTION!! externalize this, do not put in code.
 const initialize = async (users) => {
   const adminUser = {
     firstName: "Admin",
@@ -75,17 +74,15 @@ const insertUser = async (user) => {
     const { code } = error;
 
     // Duplicate key error: in our case, it is a duplicate email
-    if(code === 11000) {
-      throw new GenericError(401, "Database error", `A user with the email '${user.email}' already exists`);
+    if (code === 11000) {
+      throw new GenericError(
+        401,
+        "Database error",
+        `A user with the email '${user.email}' already exists`
+      );
     } else {
-      throw new GenericError(code, "Database error", errorMessage);
+      throw new GenericError(code, "Database error", "Error inserting user");
     }
-    const errorMessage =
-      code === 11000
-        ? `A user with the email '${user.email}' already exists`
-        : "Error inserting user";
-
-    throw new GenericError(code, "Database error", errorMessage);
   }
 };
 
