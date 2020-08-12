@@ -98,7 +98,7 @@ The `Postman` collection is divided in seven folders, each one testing several u
 - It tests that a user can register without previously being logged in.
 - Checks that a user can not register with an existing email in the system.
 - It checks that a non logged-in user can not register with admin role.
-- It checks the validity of the fields of the user. For this, it checks the format and presence of the fields. This information is specified in the `schema/*-schema.json` files provided in the project, which are `JSON Schema` files that the API uses for input validation.
+- It checks the validity of the fields of the user. For this, it checks the format and presence of the fields. This information is specified in the `schema/Schema.json` files provided in the project, which are `JSON Schema` files that the API uses for input validation.
 
 ### Login
 
