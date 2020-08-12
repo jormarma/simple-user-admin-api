@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://jorge.marti.marin/schemas/userapi/registerUserSchema.json",
+
+  "type": "object",
+  "properties": {
+    "firstName": { "$ref": "definitions.json#name" },
+    "lastName": { "$ref": "definitions.json#name" },
+    "email": { "$ref": "definitions.json#email" },
+    "password": { "$ref": "definitions.json#password" },
+    "role": { "$ref": "definitions.json#role" },
+    "country": { "$ref": "definitions.json#name" },
+    "phoneNumber": { "$ref": "definitions.json#phoneNumber" },
+    "postalCode": { "$ref": "definitions.json#postalCode" }
+  },
+  "additionalProperties": false,
+  "required": [
+    "firstName",
+    "lastName",
+    "email",
+    "password",
+    "role",
+    "country",
+    "phoneNumber",
+    "postalCode"
+  ]
+}

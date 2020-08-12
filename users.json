@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Ned",
+    "lastName": "Stark",
+    "email": "ned.stark@msn.com",
+    "password": "FEJ0!P5Q",
+    "role": "user",
+    "phoneNumber": "+0 161-78-46-55",
+    "country": "Dorne",
+    "postalCode": "20134"
+  },
+  {
+    "name": "Robert",
+    "lastName": "Baratheon",
+    "email": "robert.baratheon@gmail.com",
+    "password": "xo$zLm2;I",
+    "role": "user",
+    "phoneNumber": "+91 375-55-24-42",
+    "country": "Dorne",
+    "postalCode": "26866"
+  },
+  {
+    "name": "Jaime",
+    "lastName": "Lannister",
+    "email": "jaime.lannister@msn.com",
+    "password": ".LJzS6_V",
+    "role": "user",
+    "phoneNumber": "+34 624-06-62-56",
+    "country": "Meereen",
+    "postalCode": "35769"
+  },
+  {
+    "name": "Catelyn",
+    "lastName": "Stark",
+    "email": "catelyn.stark@hotmail.com",
+    "password": "HvUE\\UpYIY@2t*bxHD",
+    "role": "user",
+    "phoneNumber": "+23 681-98-70-45",
+    "country": "Iron Islands",
+    "postalCode": "41555"
+  },
+  {
+    "name": "Cersei",
+    "lastName": "Lannister",
+    "email": "cersei.lannister@gmail.com",
+    "password": "L#lO^jhsq-A",
+    "role": "user",
+    "phoneNumber": "+2 303-33-55-37",
+    "country": "Dorne",
+    "postalCode": "13417"
+  },
+  {
+    "name": "Daenerys",
+    "lastName": "Targaryen",
+    "email": "daenerys.targaryen@gmail.com",
+    "password": ".Cm9;^wH5",
+    "role": "user",
+    "phoneNumber": "+45 095-05-38-91",
+    "country": "Highgarden",
+    "postalCode": "28132"
+  },
+  {
+    "name": "Jorah",
+    "lastName": "Mormont",
+    "email": "jorah.mormont@msn.com",
+    "password": "vTKFLXKfy",
+    "role": "user",
+    "phoneNumber": "+1 275-06-05-56",
+    "country": "Braavos",
+    "postalCode": "36826"
+  },
+  {
+    "name": "Viserys",
+    "lastName": "Targaryen",
+    "email": "viserys.targaryen@hotmail.com",
+    "password": "\\Mg9LOK#_Y1_o2s6HD",
+    "role": "user",
+    "phoneNumber": "+0 242-14-29-94",
+    "country": "Iron Islands",
+    "postalCode": "14341"
+  },
+  {
+    "name": "Jon",
+    "lastName": "Snow",
+    "email": "jon.snow@msn.com",
+    "password": "U$YX-CVH-VIC&2nE:#",
+    "role": "user",
+    "phoneNumber": "+18 259-97-15-65",
+    "country": "Highgarden",
+    "postalCode": "29248"
+  },
+  {
+    "name": "Robb",
+    "lastName": "Stark",
+    "email": "robb.stark@hotmail.com",
+    "password": "LS_N\\WW+f+\\V^N",
+    "role": "user",
+    "phoneNumber": "+6 293-25-81-35",
+    "country": "Braavos",
+    "postalCode": "50822"
+  },
+  {
+    "name": "Sansa",
+    "lastName": "Stark",
+    "email": "sansa.stark@gmail.com",
+    "password": "IBMN@ppzh",
+    "role": "user",
+    "phoneNumber": "+0 692-80-76-31",
+    "country": "Astapor",
+    "postalCode": "9791"
+  },
+  {
+    "name": "Arya",
+    "lastName": "Stark",
+    "email": "arya.stark@msn.com",
+    "password": "Y8Jq7+bdvF",
+    "role": "user",
+    "phoneNumber": "+3 829-63-11-40",
+    "country": "Highgarden",
+    "postalCode": "35944"
+  },
+  {
+    "name": "Theon",
+    "lastName": "Greyjoy",
+    "email": "theon.greyjoy@msn.com",
+    "password": "&wN#84IG1",
+    "role": "user",
+    "phoneNumber": "+1 327-42-39-65",
+    "country": "Dorne",
+    "postalCode": "45163"
+  },
+  {
+    "name": "Bran",
+    "lastName": "Stark",
+    "email": "bran.stark@test.com",
+    "password": ".;8m6X&3",
+    "role": "user",
+    "phoneNumber": "+7 027-61-00-13",
+    "country": "Astapor",
+    "postalCode": "48897"
+  },
+  {
+    "name": "Joffrey",
+    "lastName": "Baratheon",
+    "email": "joffrey.baratheon@msn.com",
+    "password": "NZ50jCRzO_U$vm@mf",
+    "role": "user",
+    "phoneNumber": "+2 948-90-29-85",
+    "country": "Winterfell",
+    "postalCode": "3196"
+  },
+  {
+    "name": "Sandor",
+    "lastName": "Clegane",
+    "email": "sandor.clegane@hotmail.com",
+    "password": "3xwiFz:\\ua8t",
+    "role": "user",
+    "phoneNumber": "+33 267-53-03-98",
+    "country": "King's Landing",
+    "postalCode": "36304"
+  },
+  {
+    "name": "Tyrion",
+    "lastName": "Lannister",
+    "email": "tyrion.lannister@hotmail.com",
+    "password": "atmQ9wWoUZ^",
+    "role": "user",
+    "phoneNumber": "+10 503-49-02-33",
+    "country": "Highgarden",
+    "postalCode": "28072"
+  },
+  {
+    "name": "Petyr",
+    "lastName": "Baelish",
+    "email": "petyr.baelish@msn.com",
+    "password": "31@*f;@SvG7O$",
+    "role": "user",
+    "phoneNumber": "+1 708-93-91-70",
+    "country": "Dorne",
+    "postalCode": "31900"
+  },
+  {
+    "name": "Davos",
+    "lastName": "Seaworth",
+    "email": "davos.seaworth@msn.com",
+    "password": "huJ:K7sp6_L",
+    "role": "user",
+    "phoneNumber": "+21 385-56-64-74",
+    "country": "Winterfell",
+    "postalCode": "24269"
+  },
+  {
+    "name": "Samwell",
+    "lastName": "Tarly",
+    "email": "samwell.tarly@test.com",
+    "password": "se++21IXUpl1rr\\",
+    "role": "user",
+    "phoneNumber": "+9 915-92-23-65",
+    "country": "King's Landing",
+    "postalCode": "7612"
+  },
+  {
+    "name": "Stannis",
+    "lastName": "Baratheon",
+    "email": "stannis.baratheon@hotmail.com",
+    "password": "PIYE1E@mqK^wc",
+    "role": "user",
+    "phoneNumber": "+9 008-40-57-33",
+    "country": "Highgarden",
+    "postalCode": "5981"
+  },
+  {
+    "name": "Jeor",
+    "lastName": "Mormont",
+    "email": "jeor.mormont@gmail.com",
+    "password": "!P4GLy;Rf9%RM2DF*e",
+    "role": "user",
+    "phoneNumber": "+24 932-00-74-33",
+    "country": "Meereen",
+    "postalCode": "39383"
+  },
+  {
+    "name": "Margaery",
+    "lastName": "Tyrell",
+    "email": "margaery.tyrell@gmail.com",
+    "password": "GMa&JXSjn7q0V",
+    "role": "user",
+    "phoneNumber": "+13 218-12-77-70",
+    "country": "Iron Islands",
+    "postalCode": "19236"
+  },
+  {
+    "name": "Tywin",
+    "lastName": "Lannister",
+    "email": "tywin.lannister@hotmail.com",
+    "password": "d2F:hcm3u",
+    "role": "user",
+    "phoneNumber": "+21 217-72-35-44",
+    "country": "Astapor",
+    "postalCode": "37469"
+  },
+  {
+    "name": "Talisa",
+    "lastName": "Maegyr",
+    "email": "talisa.maegyr@hotmail.com",
+    "password": "fM#c&SobR-C",
+    "role": "user",
+    "phoneNumber": "+0 953-72-88-99",
+    "country": "Winterfell",
+    "postalCode": "10287"
+  },
+  {
+    "name": "Tormund",
+    "lastName": "Giantsbane",
+    "email": "tormund.giantsbane@test.com",
+    "password": "wPBAeiwo4fsC1",
+    "role": "user",
+    "phoneNumber": "+45 097-67-33-80",
+    "country": "Iron Islands",
+    "postalCode": "1069"
+  },
+  {
+    "name": "Ramsay",
+    "lastName": "Bolton",
+    "email": "ramsay.bolton@msn.com",
+    "password": "Wppypm%yVqQp\\xDzW\\",
+    "role": "user",
+    "phoneNumber": "+0 854-25-44-77",
+    "country": "Braavos",
+    "postalCode": "34553"
+  },
+  {
+    "name": "Daario",
+    "lastName": "Naharis",
+    "email": "daario.naharis@test.com",
+    "password": "Kwd:SqVD5QsTiT08&:R",
+    "role": "user",
+    "phoneNumber": "+6 653-36-63-38",
+    "country": "Iron Islands",
+    "postalCode": "12273"
+  },
+  {
+    "name": "Ellaria",
+    "lastName": "Sand",
+    "email": "ellaria.sand@hotmail.com",
+    "password": "FO1\\phdKbNv1k@D3Wo",
+    "role": "user",
+    "phoneNumber": "+32 017-14-02-19",
+    "country": "Braavos",
+    "postalCode": "42159"
+  },
+  {
+    "name": "Tommen",
+    "lastName": "Baratheon",
+    "email": "tommen.baratheon@hotmail.com",
+    "password": "1JQhg15F3RWGwD%!Ws",
+    "role": "user",
+    "phoneNumber": "+7 492-90-50-94",
+    "country": "Meereen",
+    "postalCode": "38447"
+  },
+  {
+    "name": "Roose",
+    "lastName": "Bolton",
+    "email": "roose.bolton@test.com",
+    "password": "5A*\\fn5;xBI#gF3Szp0",
+    "role": "user",
+    "phoneNumber": "+4 561-24-73-40",
+    "country": "Astapor",
+    "postalCode": "1538"
+  },
+  {
+    "name": "Grey",
+    "lastName": "Worm",
+    "email": "grey.worm@test.com",
+    "password": "GA8GnalQ",
+    "role": "user",
+    "phoneNumber": "+7 759-58-40-88",
+    "country": "Highgarden",
+    "postalCode": "30326"
+  }
+]
