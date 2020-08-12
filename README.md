@@ -78,7 +78,9 @@ The code is embedded in the container, and further changes will not have efect o
 After all the endpoints started, you can execute the Postman tests using the following command:
 
 ```bash
-npm start
+npm test
 ```
 
 All of them should pass successfully. The previous command makes use of the `test/test-collection.json` Postman collection and the `test/test-environment.json` Postman environment.
+
+The `Postman` collection is divided in seven folders, each one testing several use cases. All of them assume a clean database with a single `auth` user
