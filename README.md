@@ -58,7 +58,7 @@ There are two ways to start all the modules of the application, one for developm
 ```bash
 git clone https://github.com/jormarma/simple-user-admin-api
 cd simple-user-admin-api
-docker-compose up
+docker-compose up --force-recreate
 ```
 
 These commands start 3 docker containers that talk to each other and allow the use of the endpoints described in the previous section.
@@ -70,7 +70,7 @@ These commands start 3 docker containers that talk to each other and allow the u
 Starting the containers in this way, you can develop and change the code, and the web server will restart automatically responding to those changes. On the other hand, if you use the command:
 
 ```bash
-docker-compose -f docker-compose-prod.yml up
+docker-compose -f docker-compose-prod.yml up --force-recreate
 ```
 
 The code is embedded in the container, and further changes will not have efect on the currently deployed application.
