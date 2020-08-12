@@ -83,4 +83,54 @@ npm test
 
 All of them should pass successfully. The previous command makes use of the `test/test-collection.json` Postman collection and the `test/test-environment.json` Postman environment.
 
-The `Postman` collection is divided in seven folders, each one testing several use cases. All of them assume a clean database with a single `auth` user
+The `Postman` collection is divided in seven folders, each one testing several use cases. All of them assume a clean database with a single `auth` user:
+
+- Register User
+- Login
+- Update User
+- Delete User
+- List Users
+- Update user to admin role
+- Create admin user
+
+### Register user
+
+- It tests that a user can register without previously being logged in.
+- Checks that a user can not register with an existing email in the system.
+- It checks that a non logged-in user can not register with admin role.
+- It checks the validity of the fields of the user. For this, it checks the format and presence of the fields. This information is specified in the `schema/*-schema.json` files provided in the project, which are `JSON Schema` files that the API uses for input validation.
+
+### Login
+
+- Checks that a user can not log in without valid email.
+- Checks that a user can not log in if it does not exist in the system.
+- Checks that a user is properly logged in if the email and password exist in the system and are correct.
+- Check that logging in being already logged in has no effect.
+
+### Update User
+
+- Checks that an update with data invalid or not properly formatted is rejected.
+- Checks that an attempt to update without being the current logged in user is prevented.
+- The `password` field is mandatory to check that the current user matches the user that is going to be updated.
+- Checks that if a user enters valid data being logged in and trying to modify its own data, it succeeds.
+
+### Delete User
+
+- Checks that a user cannot be deleted if it is not logged in.
+- But that it can be deleted if it is logged in. When deleted, it becomes automatically logged out.
+- Checks also that an `admin` user cannot delete itself if it is tha only `admin` user in the system.
+
+### List users
+
+- Check that an `admin` user can list and see the information of other registered users.
+- Checks that a non-`admin` user can not perform a listing of the users.
+
+### Update user to admin role
+
+- Checks that an `admin` user is able to register, and after upgrade a user with `user` role to an `admin` role.
+
+### Create admin user
+
+- Checks that a logged in `admin` user is able to register another `admin` user.
+- Checks that the new `admin` user has the same privileges (list users) than the original `admin` user.
+
